@@ -8,7 +8,7 @@ GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 genai.configure(api_key=GEMINI_API_KEY)
 
 # Load Gemini model
-model = genai.GenerativeModel(model_name="gemini-1.5-pro")
+model = genai.GenerativeModel(model_name="gemini-2.5-flash")
 
 
 def fetch_usernames():
