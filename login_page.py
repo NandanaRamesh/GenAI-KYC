@@ -27,7 +27,6 @@ def login():
                 )
 
                 if response.user:
-                    st.write("Login Response User Object:", response.user)
 
                     # Get metadata from login response
                     user_metadata = response.user.user_metadata
